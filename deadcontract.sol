@@ -82,7 +82,6 @@ pragma solidity ^0.6.0;
 contract DeadTransfer {
 
     address owner;
-    address tempDeadWallet;
 
      constructor() public {
         owner=msg.sender;
